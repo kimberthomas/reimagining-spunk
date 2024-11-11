@@ -203,6 +203,10 @@ body {
     transform: translateX(-50%);
 }
 
+
+.hero-content,.hero-img-2{
+    display: none;
+}
 @media (max-width: 992px) {
     .hero-title {
         width: 400px;
@@ -240,12 +244,19 @@ body {
         font-size: 14px;
     }
 
+    .hero-img-1{
+        display: none;
+    }
+    .hero-img-2{
+        display: block;
+    }
     .hero-content {
+        display: flex;
         padding: 50px 0;
     }
 
     .hero-img {
-        height: auto;
+        height: 500px;
         width: 100%;
         object-position: right;
     }
