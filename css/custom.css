@@ -1,0 +1,229 @@
+html{overflow-x:hidden;scroll-behavior:smooth}
+body{position:relative;background:#FAF8F1;margin:0;padding:0!important;font-family: "Poppins", sans-serif;font-weight:400;color:#646464;overflow-x:hidden}
+*{box-sizing:border-box}
+p{font-size:18px;line-height: 1.5;color:#E6DFDA;font-weight:500;margin-bottom: 15px;}
+#myBtn{display:none;position:absolute;bottom:20px;right:30px;z-index:99;font-size:36px;line-height: 36px;border:none;outline:0;background:#ef3e42;color:#fff;cursor:pointer;padding:0;width:60px;height:60px;border-radius:100%}
+#myBtn:hover{background-color:#000}
+a,a:focus,a:hover{text-decoration:none!important;transition:ease-in-out .3s}
+a{color:#0055A4}
+button:focus{box-shadow:none!important}
+ul{padding:0;margin:0;list-style: none;}
+img{max-width:100%;transition:ease-in-out .3s;width:auto;height:auto;object-fit: cover;}
+::placeholder{color:#000!important}
+button:focus{outline:0!important}
+h1, h2, h3, h4, h5, h6{color: #1D1F2C;font-family: "Inter", sans-serif;}
+.container {
+    max-width: 1280px;
+}
+.owl-carousel .owl-item img {
+    display: inline-block;
+    width: auto;
+}
+.owl-dots, .owl-nav {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    left: 0;
+}
+.owl-dots{bottom: 24px;}
+.owl-dots button {
+    width: 12px;
+    height: 12px;
+    border:none;
+    background: rgba(217, 217, 217, 0.5) !important;
+    border-radius: 100%;
+}
+.owl-dots button.active{
+    background: rgba(255, 138, 52, 1) !important;
+    width: 25px;
+    border-radius: 100px;
+}
+.owl-dots button:not(:last-child) {
+    margin-right: 10px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 100%;
+    margin: 0 5px;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+}
+.owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:hover{
+    background: #FF8A34;
+}
+.owl-carousel .owl-nav button span {
+    position: relative;
+    top: -2px;
+}
+.main_sec .item {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px 0 120px;
+}
+.main_sec .owl-item .slide_1{
+    background: url(../img/slide_1.webp) no-repeat center/cover;
+    padding:100px 0;
+}
+.main_sec .owl-item .slide_2{
+    background: url(../img/slide_2.webp) no-repeat center/cover;
+}
+.main_sec .owl-item .slide_3{
+    background: url(../img/slide_3.webp) no-repeat center/cover;
+}
+.main_sec .owl-item .slide_4{
+    background: url(../img/video_bg.webp) no-repeat center/cover;
+}
+.main_sec .owl-item .slide_5{
+    background: url(../img/slide_5.webp) no-repeat center/cover;
+    background-position: top right;
+}
+.main_sec .owl-item .slide_6{
+    background: url(../img/slide_6.webp) no-repeat center/cover;
+    background-position: top;
+}
+.main_sec .owl-item .slide_7{
+    background: url(../img/slide_7.webp) no-repeat center/cover;
+}
+.main_sec .owl-item .slide_8{
+    background: url(../img/slide_8.webp) no-repeat center/cover;
+}
+.main_sec .owl-item .slide_9{
+    background: url(../img/video_bg2.webp) no-repeat center/cover;
+}
+.main_sec .container{
+    position: relative;
+    z-index: 9;
+}
+.top_head {
+    color: #F8DC9E;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.first_slide h1 {
+    font-size: 160px;
+    margin-left: -8px;
+    line-height: 140px;
+}
+.gradient_head{
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    background: repeating-radial-gradient(rgba(0, 0, 0, 0.25) 0 0.001%,#FF8A34 0 0.1%) 30% 10% / 60vw 60vw,
+    repeating-conic-gradient(rgba(0, 0, 0, 0.25) 0 0.001%,#FF8A34 0 0.0002%) 70% 70% / 30vw 30vw;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    background-blend-mode: difference;
+}
+.first_slide p, .slide_9 p{max-width: 490px;font-size: 20px;line-height: 170%;color: #fff;text-transform: capitalize;}
+
+.btn_group{margin: 40px 0 0;}
+.custom_btn, .back_btn {
+    color: #fff !important;
+    border: 1px solid #fff;
+    text-align: center;
+    display: inline-block;
+    padding: 17px 23px;
+    transition: ease-in-out .3s;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.custom_btn:hover, .back_btn:hover {
+    background: #FF8A34;
+}
+
+.second_slide p {
+    max-width: 670px;
+}
+.sec_head{
+    font-size: 64px;
+}
+.sec_headL{font-size: 88px;}
+.hurston_txt {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    max-width: 670px;
+}
+.hurston_txt img{min-width: 120px;margin-right: 15px;}
+.third_slide{max-width: 795px;}
+.video_item iframe {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.video_item{position: relative;background: #000;}
+.video_item .container {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    right: 0;
+}
+.head_h3 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.slide_5 .sec_head {
+    font-size: 42px;
+    max-width: 650px;
+}
+.carousel-item p {
+    margin: 10px 0 0;
+    font-size: 14px;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: static;
+    width: 40px;
+    background: #FF8A34;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin: 0 10px;
+}
+.video-btn {
+    position: relative;
+    z-index: 99;
+}
+.video_modal {
+	padding: 0 12px !important
+}
+.video_modal .modal-dialog {
+	max-width: 905px;
+}
+.video_modal .modal-body {
+	padding: 15px 15px 10px
+}
+.btn-close {
+	position: absolute;
+	z-index: 9;
+	right: -20px;
+	top: -20px;
+	opacity: inherit !important;
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+	border-radius: 100%
+}
+.video_modal iframe {
+	width: 100%;
+	height: 100%;
+    object-fit:cover;
+}
