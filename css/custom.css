@@ -127,7 +127,6 @@ h1, h2, h3, h4, h5, h6{color: #1D1F2C;font-family: "Inter", sans-serif;}
     background-clip: text;
     -webkit-background-clip: text;
     text-fill-color: transparent;
-    background-blend-mode: difference;
 }
 .first_slide p, .slide_9 p{max-width: 490px;font-size: 20px;line-height: 170%;color: #fff;text-transform: capitalize;}
 
