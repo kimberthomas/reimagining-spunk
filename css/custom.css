@@ -121,12 +121,11 @@ h1, h2, h3, h4, h5, h6{color: #1D1F2C;font-family: "Inter", sans-serif;}
 .gradient_head{
     font-weight: 900;
     text-transform: uppercase;
-    color: transparent;
+    color: transparent !important;
     background: repeating-radial-gradient(rgba(0, 0, 0, 0.25) 0 0.001%,#FF8A34 0 0.1%) 30% 10% / 60vw 60vw,
     repeating-conic-gradient(rgba(0, 0, 0, 0.25) 0 0.001%,#FF8A34 0 0.0002%) 70% 70% / 30vw 30vw;
-    background-clip: text;
     -webkit-background-clip: text;
-    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent !important;
 }
 .first_slide p, .slide_9 p{max-width: 490px;font-size: 20px;line-height: 170%;color: #fff;text-transform: capitalize;}
 
